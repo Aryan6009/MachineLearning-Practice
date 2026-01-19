@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 # Load the dataset
 
-data =pd.read_csv("student_performance.csv")
+data =pd.read_csv("Datasets\student_performance.csv")
 
 # Display the first few rows of the dataset
 print(data.head())

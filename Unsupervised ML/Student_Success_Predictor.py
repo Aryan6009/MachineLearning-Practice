@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
 
 # Load the dataset
-df = pd.read_csv("Unsupervised ML\student_success_dataset.csv")
+df = pd.read_csv("Datasets\student_success_dataset.csv")
 
 # Display the first few rows of the dataset
 

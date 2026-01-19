@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-data = pd.read_csv("student_score.csv")
+data = pd.read_csv("Datasets\student_score.csv")
 
 X = data[['Hours']]
 y = data['Score']

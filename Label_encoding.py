@@ -1,7 +1,7 @@
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
-df = pd.read_csv("language.csv",encoding='latin1')
+df = pd.read_csv("Datasets\language.csv",encoding='latin1')
 df_label = df.copy()
 
 le = LabelEncoder()
